@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="5dp"
+android:paddingRight="5dp"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:weightSum="14"
+android:orientation="vertical"
+    tools:context="com.example.juanes.resistenciap4.MainActivity">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="3"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/tabla"
+        android:layout_weight="4.68" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="9"
+    android:orientation="horizontal"
+    android:weightSum="4">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/q1negro"
+                android:text="Negro"
+                android:onClick="horizontal1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q1cafe"
+                android:text="Cafe"
+                android:onClick="horizontal1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q1rojo"
+                android:text="Rojo"
+                android:onClick="horizontal1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q1naranja"
+                android:text="Naranja"
+                android:onClick="horizontal1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q1amarillo"
+                android:text="Amarillo"
+                android:onClick="horizontal1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q1verde"
+                android:text="Verde"
+                android:onClick="horizontal1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q1azul"
+                android:text="Azul"
+                android:onClick="horizontal1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q1violeta"
+                android:text="Violeta"
+                android:onClick="horizontal1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q1gris"
+                android:text="Gris"
+                android:onClick="horizontal1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q1blanco"
+                android:text="Blanco"
+                android:onClick="horizontal1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/q2negro"
+                android:text="Negro"
+                android:onClick="columna2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q2cafe"
+                android:text="Cafe"
+                android:onClick="columna2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q2rojo"
+                android:text="Rojo"
+                android:onClick="columna2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q2naranja"
+                android:text="Naranja"
+                android:onClick="columna2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q2amarillo"
+                android:text="Amarillo"
+                android:onClick="columna2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q2verde"
+                android:text="Verde"
+                android:onClick="columna2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q2azul"
+                android:text="Azul"
+                android:onClick="columna2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q2violeta"
+                android:text="Violeta"
+                android:onClick="columna2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q2gris"
+                android:text="Gris"
+                android:onClick="columna2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q2blanco"
+                android:text="Blanco"
+                android:onClick="columna2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/q3negro"
+                android:text="Negro"
+                android:onClick="columna3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q3cafe"
+                android:text="Cafe"
+                android:onClick="columna3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q3rojo"
+                android:text="Rojo"
+                android:onClick="columna3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q3naranja"
+                android:text="Naranja"
+                android:onClick="columna3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q3amarillo"
+                android:text="Amarillo"
+                android:onClick="columna3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q3verde"
+                android:text="Verde"
+                android:onClick="columna3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q3azul"
+                android:text="Azul"
+                android:onClick="columna3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q3violeta"
+                android:text="Violeta"
+                android:onClick="columna3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q3gris"
+                android:text="Gris"
+                android:onClick="columna3"
+                android:layout_width="439dp"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/q3blanco"
+                android:text="Blanco"
+                android:onClick="columna3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/qcafe"
+                android:text="Cafe"
+                android:onClick="columna4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/qrojo"
+                android:text="Rojo"
+                android:onClick="columna4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/qdorado"
+                android:text="Dorado"
+                android:onClick="columna4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/qplateado"
+                android:text="Plateado"
+                android:onClick="columna4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="2"
+    android:gravity="center"
+    android:layout_gravity="center_horizontal|center"
+    android:orientation="horizontal"
+    android:weightSum="3">
+
+    <Button
+        android:text="Valor"
+        android:onClick="calcular"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+
+</LinearLayout>
